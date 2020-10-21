@@ -74,6 +74,8 @@ header #branding h1 {
   font-size: 25px;
 }
 /*Showcase styling ends here*/
+
+/*newsletter styling ends here*/
 .newsletter-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -94,3 +96,15 @@ header #branding h1 {
   padding: 4px;
 }
 /*end of newsletter section*/
+
+/*Services wrapper starts here*/
+.services-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding: 25px 0;
+  text-align: center;
+}
+.box img {
+  width: 90px;
+}
