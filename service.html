@@ -1,81 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Acme Website | Our Services</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-    <header>
-       <div class="container">
-            <div id="branding">
-                <h1><span  id="brand">Acme</span> Web Design</h1>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li ><a  href="index.html">home</a></li>
-                    <li ><a href="about.html">about</a></li>
-                    <li class="current"><a href="service.html">services</a></li>
-                </ul>
-            </nav>
-       </div>
-    </header>
+      <!--Implementation of Header-->
+      <header>
+        <div class="container">
+             <div class="header-wrapper">
+                 <div id="branding">
+                     <h1><span  id="brand">Acme</span> Web Design</h1>
+                 </div>
+                 <nav id="navbar">
+                     <ul>
+                         <li ><a  href="index.html">home</a></li>
+                         <li><a href="about.html">about</a></li>
+                         <li class="current"><a href="service.html">services</a></li>
+                     </ul>
+                 </nav>
+             </div>
+        </div>
+     </header>
     
     
+    <!--newsletter section starts here-->
     <section id="newsletter">
         <div class="container">
-            <div class="newsletter">
-                <h1>Subscribe to our newsletter</h1>
+            
+                <div class="newsletter-wrapper">
+                    <h1>Subscribe to our newsletter</h1>
+                    <form action="">
+                        <input type="email" name="emailAddress" id="email">
+                        <button type="submit" class="button_1">Subscribe</button>
+                    </form>
+                </div>
+          
+        </div>
+    </section>
+    <!--newsletter section ends here-->
+    <!--service details sections starts here-->
+    <div class="container">
+        <div class="services-details-wrapper">
+            <div class="service">
+                <h3>Services</h3>
+                <div class="service-boxes">
+                    <h3>Website Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                
+                    <p>Pricing: $1,000 - $3,000</p>
+                </div>
+                <div class="service-boxes">
+                    <h3>Website Maintenance</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                    
+                    <p>Pricing: $1,000 - $3,000</p>
+                </div>
+                <div class="service-boxes">
+                    <h3>Website Hosting</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                    
+                    <p>Pricing: $250 per month</p>
+                </div>
+            </div>
+            <div id="letter">
+                <h3>Get A Quote</h3>
                 <form action="">
-                    <input type="email" name="emailAddress" id="email">
-                    <button type="submit" class="button_1">Subscribe</button>
+                    <label for="name">Name</label><br>
+                    <input id="name" type="text" name="userName" placeholder="Name">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input id="email" type="email" name="userEmail" placeholder="Email">
+                    <br><label for="user-message">Message</label>
+                    <br><textarea placeholder="Message" name="message" id="user-message" cols="30" rows="10"></textarea>
+                    <br>
+                    <button type="submit" class="button_1">Send</button>
                 </form>
             </div>
         </div>
-    </section>
-    <div class="container">
-        <h3>Services</h3>
-        <div class="service">
-            <div class="service-boxes">
-                <h3>Website Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-            
-                <p>Pricing: $1,000 - $3,000</p>
-            </div>
-            <div class="service-boxes">
-                <h3>Website Maintenance</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-                
-                <p>Pricing: $1,000 - $3,000</p>
-            </div>
-            <div class="service-boxes">
-                <h3>Website Hosting</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-                
-                <p>Pricing: $250 per month</p>
-            </div>
-        </div>
-        <div id="letter">
-            <h3>Get A Quote</h3>
-            <form action="">
-                <label for="name">Name</label>
-                <input id="name" type="text" name="userName" placeholder="Name">
-                <label for="email">Email</label>
-                <input id="email" type="email" name="userEmail" placeholder="Email">
-                <label for="user-message">Message</label>
-                <textarea name="message" id="user-message" cols="30" rows="10"></textarea>
-                <button type="submit" class="button_1">Send</button>
-            </form>
-        </div>
     </div>
+    <!--service details sections starts here-->
     <footer class="main-footer">
         <div class="container">
-           
             <p>Acme Web Design, Copyright &copy; 2020</p>
-        
         </div>
     </footer>
+    <!--end of footer markup-->
 
 </body>
 </html>
