@@ -16,7 +16,7 @@
                  </div>
                  <nav id="navbar">
                      <ul>
-                         <li ><a  href="index.html">home</a></li>
+                         <li id="makeleft"><a  href="index.html">home</a></li>
                          <li><a href="about.html">about</a></li>
                          <li class="current"><a href="service.html">services</a></li>
                      </ul>
@@ -68,17 +68,23 @@
             <div id="letter">
                 <h3>Get A Quote</h3>
                 <form action="">
-                    <label for="name">Name</label><br>
-                    <input id="name" type="text" name="userName" placeholder="Name">
-                    <br>
-                    <label for="email">Email</label>
+                    <div class="name">
+                        <label for="name">Name</label><br>
+                        <input id="name" type="text" name="userName" placeholder="Name">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
                     <br>
                     <input id="email" type="email" name="userEmail" placeholder="Email">
-                    <br><label for="user-message">Message</label>
+                    <br>
+                    </div>
+                    <div class="message">
+                        <label for="user-message">Message</label>
                     <br><textarea placeholder="Message" name="message" id="user-message" cols="30" rows="10"></textarea>
                     <br>
                     <button type="submit" class="button_1">Send</button>
-                </form>
+                    </div>
+                     </form>
             </div>
         </div>
     </div>
