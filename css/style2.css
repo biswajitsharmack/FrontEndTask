@@ -92,6 +92,7 @@ header #branding h1 {
   background-color: #35424a;
   color: white;
   min-width: 60px;
+  margin-bottom: 15px;
 }
 #newsletter input[type="email"] {
   height: 25px;
@@ -119,6 +120,7 @@ footer {
   font-weight: bold;
   text-align: center;
   background-color: #e8491d;
+  margin-top: 10px;
 }
 /*footer styling ends here*/
 
@@ -142,6 +144,7 @@ footer {
   padding: 10px;
 }
 /*css for services page*/
+
 .services-details-wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -163,4 +166,52 @@ footer {
   margin-top: 25px;
   margin-bottom: 20px;
   max-width: 300px;
+}
+/*styling for services page ends here*/
+
+/*making all the components responsive*/
+@media (max-width: 700px) {
+  .header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  .services-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-gap: 1.6em;
+    padding: 25px 0;
+    text-align: center;
+  }
+  .newsletter-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+  }
+  .newsletter-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+  .about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #side-bar {
+    margin-top: 0;
+  }
+  .services-details-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  #letter {
+    justify-self: center;
+    background-color: #35424a;
+    color: white;
+    margin-top: 0;
+  }
 }
