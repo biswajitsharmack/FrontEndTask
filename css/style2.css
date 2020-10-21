@@ -102,9 +102,19 @@ header #branding h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
+  grid-gap: 1.6em;
   padding: 25px 0;
   text-align: center;
 }
 .box img {
   width: 90px;
 }
+/*services styling ends here here*/
+/*footer styling starts here*/
+footer {
+  color: #f4f4f4;
+  font-weight: bold;
+  text-align: center;
+  background-color: #e8491d;
+}
+/*footer styling ends here*/
