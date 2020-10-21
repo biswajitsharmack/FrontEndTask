@@ -14,14 +14,14 @@ body {
   background: #e8491d;
   border: none;
   color: wheat;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 /*header implementation starts here*/
 header {
   background-color: #35424a;
-  min-width: 70px;
-  border-bottom: 3px #e8491d solid;
+  min-width: 4.37rem;
+  border-bottom: 0.18rem #e8491d solid;
 }
 .current a {
   color: #e8491d;
@@ -32,7 +32,7 @@ ul {
 }
 header li {
   display: inline;
-  padding: 0 20px 0 20px;
+  padding: 0 1.3rem 0 1.3rem;
 }
 header a {
   color: white;
@@ -41,7 +41,7 @@ header a {
 }
 header #branding h1 {
   margin: 0;
-  padding: 10px 0;
+  padding: 0.625rem 0;
   color: white;
 }
 .header-wrapper {
@@ -56,13 +56,13 @@ header #branding h1 {
 }
 .header-wrapper #navbar {
   justify-self: end;
-  margin-top: 25px;
+  margin-top: 1.5rem;
 }
 /*Header implementation ends here*/
 
 /*showcase*/
 #showcase {
-  min-height: 400px;
+  min-height: 25rem;
   background-image: url("../img/showcase.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -71,10 +71,10 @@ header #branding h1 {
   color: white;
 }
 #showcase h1 {
-  font-size: 55px;
+  font-size: 3.43rem;
 }
 #showcase p {
-  font-size: 25px;
+  font-size: 1.3rem;
 }
 /*Showcase styling ends here*/
 
@@ -82,22 +82,22 @@ header #branding h1 {
 .newsletter-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 .newsletter-wrapper form {
   justify-self: end;
-  margin-top: 25px;
+  margin-top: 1.3rem;
 }
 #newsletter {
   background-color: #35424a;
   color: white;
-  min-width: 60px;
-  margin-bottom: 15px;
+  min-width: 3.75;
+  margin-bottom: 1rem;
 }
 #newsletter input[type="email"] {
-  height: 25px;
-  width: 250px;
-  padding: 4px;
+  height: 1.8rem;
+  width: 15.625rem;
+  padding: 0.25rem;
 }
 /*end of newsletter section*/
 
@@ -107,11 +107,11 @@ header #branding h1 {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   grid-gap: 1.6em;
-  padding: 25px 0;
+  padding: 1.8rem 0;
   text-align: center;
 }
 .box img {
-  width: 90px;
+  width: 5.625rem;
 }
 /*services styling ends here here*/
 /*footer styling starts here*/
@@ -120,7 +120,7 @@ footer {
   font-weight: bold;
   text-align: center;
   background-color: #e8491d;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 /*footer styling ends here*/
 
@@ -128,31 +128,31 @@ footer {
 .about-wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 1.3rem;
 }
 .about-wrapper aside {
   align-self: start;
   justify-self: end;
   background-color: #35424a;
   color: white;
-  padding: 10px;
-  margin-top: 25px;
+  padding: 0.625rem;
+  margin-top: 1.8rem;
 }
 .about-wrapper #highlight {
   background-color: #35424a;
   color: white;
-  padding: 10px;
+  padding: 0.625rem;
 }
 /*css for services page*/
 
 .services-details-wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 0.625rem;
 }
 .service-boxes {
-  margin: 10px 0;
-  padding: 10px;
+  margin: 0.625rem 0;
+  padding: 0.625rem;
   border: 1px #bbb solid;
   box-sizing: border-box;
   background-color: #ddd;
@@ -162,9 +162,9 @@ footer {
   justify-self: end;
   background-color: #35424a;
   color: white;
-  padding: 10px;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  padding: 0.625rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.3rem;
 }
 /*styling for services page ends here*/
 
@@ -176,18 +176,21 @@ footer {
     justify-content: center;
     text-align: center;
   }
+  .header-wrapper #branding {
+    justify-self: center;
+  }
   .services-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     grid-gap: 1.6em;
-    padding: 25px 0;
+    padding: 1.8rem 0;
     text-align: center;
   }
   .newsletter-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10px 0;
+    padding: 0.625rem 0;
   }
   .newsletter-wrapper {
     display: grid;
@@ -214,12 +217,12 @@ footer {
     margin-top: 0;
   }
   .header-wrapper #navbar {
-    justify-self: start;
+    justify-self: center;
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
   }
   #navbar ul:first-child {
-    padding-left: 0px;
+    padding-left: 0;
   }
   #letter {
     width: 100%;
