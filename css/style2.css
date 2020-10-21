@@ -16,13 +16,16 @@ body {
   color: wheat;
   padding: 0 20px;
 }
+
 /*header implementation starts here*/
 header {
   background-color: #35424a;
   min-width: 70px;
   border-bottom: 3px #e8491d solid;
 }
-
+.current a {
+  color: #e8491d;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -118,3 +121,23 @@ footer {
   background-color: #e8491d;
 }
 /*footer styling ends here*/
+
+/*CSS for the about page*/
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+.about-wrapper aside {
+  align-self: start;
+  justify-self: end;
+  background-color: #35424a;
+  color: white;
+  padding: 10px;
+  margin-top: 25px;
+}
+.about-wrapper #highlight {
+  background-color: #35424a;
+  color: white;
+  padding: 10px;
+}
