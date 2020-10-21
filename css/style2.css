@@ -9,6 +9,13 @@ body {
   margin: auto;
   overflow: hidden;
 }
+.button_1 {
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  color: wheat;
+  padding: 0 20px;
+}
 /*header implementation starts here*/
 header {
   background-color: #35424a;
@@ -50,4 +57,40 @@ header #branding h1 {
 }
 /*Header implementation ends here*/
 
-/*Starting of */
+/*showcase*/
+#showcase {
+  min-height: 400px;
+  background-image: url("../img/showcase.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+#showcase h1 {
+  font-size: 55px;
+}
+#showcase p {
+  font-size: 25px;
+}
+/*Showcase styling ends here*/
+.newsletter-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 0;
+}
+.newsletter-wrapper form {
+  justify-self: end;
+  margin-top: 25px;
+}
+#newsletter {
+  background-color: #35424a;
+  color: white;
+  min-width: 60px;
+}
+#newsletter input[type="email"] {
+  height: 25px;
+  width: 250px;
+  padding: 4px;
+}
+/*end of newsletter section*/
