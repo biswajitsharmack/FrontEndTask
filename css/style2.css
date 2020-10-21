@@ -1,0 +1,53 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+/*header implementation starts here*/
+header {
+  background-color: #35424a;
+  min-width: 70px;
+  border-bottom: 3px #e8491d solid;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header #branding h1 {
+  margin: 0;
+  padding: 10px 0;
+  color: white;
+}
+.header-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-wrapper #branding {
+  justify-self: start;
+}
+.header-wrapper #branding span {
+  color: #e8491d;
+}
+.header-wrapper #navbar {
+  justify-self: end;
+  margin-top: 25px;
+}
+/*Header implementation ends here*/
+
+/*Starting of */
